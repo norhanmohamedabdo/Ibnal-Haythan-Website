@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.label {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(125, 116, 116, 0.242);
+}
+h3 span.title1 {
+  color: rgb(245, 94, 39);
+  font-size: 43px;
+  font-weight: bold;
+}
+
+h3 span.title2 {
+  color: rgba(81, 138, 203, 0.952);
+  font-size: 43px;
+  font-weight: bold;
+}
+
+h3 span.title3 {
+  color: rgba(11, 38, 99, 0.715);
+  font-size: 31px;
+  font-weight: 100;
+  position: relative;
+  right: 10px;
+  bottom: 3px;
+}
+
+.navbar {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(5, 3, 3);
+  padding: 10px;
+  border: none;
+  margin: 2px;
+  border-radius: 6px;
+  color: white;
+  transition: all 1s;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.navbar a.announced-results {
+  padding: 11px 42px;
+  background-color: rgba(38, 102, 174, 0.952);
+}
+
+.navbar a.announced-results:hover {
+  background-color: rgba(30, 99, 179, 0.952);
+}
+
+.navbar a.student-login {
+  padding: 11px 57px;
+  background-color: rgba(88, 164, 251, 0.92);
+}
+
+.navbar a.student-login:hover {
+  background-color: rgba(56, 147, 252, 0.92);
+}
+
+.navbar a.staff-login {
+  padding: 11px 57px;
+  background-color: rgba(240, 152, 38, 0.904);
+}
+
+.navbar a.staff-login:hover {
+  background-color: rgba(213, 129, 18, 0.904);
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: end;
+  direction: ltr;
+}
+
+.hero {
+  width: 38%;
+  border: 1px solid rgba(245, 179, 241, 0.6);
+  border-radius: 3px;
+  height: 450px;
+}
+.hero pre {
+  width: 100%;
+  background-color: rgba(221, 116, 172, 0.21);
+  padding: 10px;
+  border-radius: 3px;
+
+  font-size: 18px;
+  color: brown;
+}
+
+.main-content {
+  padding: 15px 10px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(22, 102, 193, 0.708);
+}
+span a {
+  color: rgba(253, 15, 15, 0.817);
+  font-weight: 100;
+  padding-right: 8px;
+  transition: all 1s;
+}
+span a:hover {
+  color: rgba(13, 69, 133, 0.831);
+}
+.smart-phones {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+  border-right: 2px solid rgba(165, 42, 42, 0.952);
+}
+.smart-phones h2 {
+  color: rgba(254, 14, 14, 0.968);
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.main-content .label {
+  display: flex;
+  align-items: start;
+  text-align: end;
+  background-color: whitesmoke;
+  padding: 9px;
+  line-height: 20px;
+  border-right: 2px solid rgba(255, 166, 0, 0.92);
+}
+
+.main-content .label p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 14px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.student-affairs {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  text-align: center;
+
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+
+  border-right: 2px solid rgba(165, 42, 42, 0.952);
+}
+
+.student-affairs p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 15px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.technical-support {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+  border-right: 2px solid rgba(255, 166, 0, 0.92);
+}
+
+.technical-support p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.external-number {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+
+  border-right: 2px solid rgba(165, 42, 42, 0.952);
+}
+
+.external-number p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.browser {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+
+  border-right: 2px solid rgba(255, 166, 0, 0.92);
+}
+
+.browser p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 15px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.system-safe {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 2px;
+
+  border-right: 2px solid rgba(165, 42, 42, 0.952);
+}
+
+.system-safe p {
+  color: rgba(0, 0, 0, 0.776);
+  font-size: 14px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.hero2 {
+  width: 55%;
+  border: 1px solid rgba(38, 101, 174, 0.842);
+  margin-left: 30px;
+  border-radius: 3px;
+}
+.hero2 pre {
+  width: 100%;
+  background-color: rgba(38, 102, 174, 0.952);
+  padding: 10px;
+  border-radius: 3px;
+
+  font-size: 19px;
+  color: white;
+}
+
+.main-contact {
+  padding: 15px 10px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(69, 66, 66, 0.776);
+}
+
+.text1 {
+  background-color: whitesmoke;
+  margin: 2px;
+  padding: 8px 10px;
+  border-right: 2px solid rgba(255, 166, 0, 0.92);
+}
+.text2 {
+  background-color: whitesmoke;
+  margin: 2px;
+  padding: 8px 10px;
+  border-right: 2px solid rgba(165, 42, 42, 0.952);
+}
+
+footer {
+  width: 100%;
+  margin: 30px;
+  text-align: center;
+  align-items: center;
+}
+.link span {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(38, 102, 174, 0.952);
+}
+.link a {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(240, 3, 3);
+}
+
+.data-security a {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  top: 10px;
+  color: rgb(240, 3, 3);
+}
